@@ -1,0 +1,30 @@
+/*デフォルトのCSSを変える*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*boxクラスについて指定*/
+.box{
+
+    /*背景指定*/
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+    /*枠線をつける*/
+    border: 3px solid #000;
+
+    /*余白指定(内側)*/
+    padding: 30px;
+
+    /*余白指定(外側)*/
+    margin: 30px;
+}
+
+.box_txt{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
